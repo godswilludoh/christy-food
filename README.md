@@ -1,3 +1,5 @@
+# Christy Food Ordering App is a react app modeled for placing foods online with quick deliveries. The feature components includes Material UI, React-router-dom, vanilla css.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
