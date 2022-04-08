@@ -1,6 +1,7 @@
 import React from 'react';
 import { Data } from '../data/Data';
 import MenuItem from '../MenuItem';
+import '../styles/Menu.css';
 
 const Menu = () => {
 	return (
