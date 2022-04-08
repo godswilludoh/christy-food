@@ -9,7 +9,7 @@ const Home = () => {
 			<div className='headerContainer'>
 				<h1>Christy's Corner</h1>
 				<p>Get delicious delicacies on the go!</p>
-				<Link to='/'>
+				<Link to='/menu'>
 					<button>Place order now</button>
 				</Link>
 			</div>

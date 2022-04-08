@@ -18,14 +18,14 @@ const Navbar = () => {
 					<Link to='/'>Home</Link>
 					<Link to='/menu'>Menu</Link>
 					<Link to='/about'>About Us</Link>
-					<Link to='/'>Contact Us</Link>
+					<Link to='/contact'>Contact Us</Link>
 				</div>
 			</div>
 			<div className='right'>
 				<Link to='/'>Home</Link>
 				<Link to='/menu'>Menu</Link>
 				<Link to='/about'>About Us</Link>
-				<Link to='/'>Contact Us</Link>
+				<Link to='/contact'>Contact Us</Link>
 				<button onClick={toggleNavbar}>
 					<MenuIcon />
 				</button>

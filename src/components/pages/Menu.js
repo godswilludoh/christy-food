@@ -6,6 +6,7 @@ import '../styles/Menu.css';
 const Menu = () => {
 	return (
 		<div className='menu'>
+			<h1>Menu List</h1>
 			<div className='menu-title'>
 				<div className='menu-list'>
 					{Data.map((menuItem) => {

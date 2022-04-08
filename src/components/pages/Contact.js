@@ -1,9 +1,14 @@
 import React from 'react';
+import '../styles/Contact.css';
+import ContactImage from '../../assets/contact.jpg';
 
 const Contact = () => {
 	return (
 		<div className='contact'>
-			<div className='left'>Left</div>
+			<div
+				className='left'
+				style={{ backgroundImage: `url(${ContactImage})` }}
+			></div>
 			<div className='right'>
 				<h1>Contact Us</h1>
 				<form id='contact-form' method='Post'>
