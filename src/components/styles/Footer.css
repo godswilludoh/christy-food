@@ -14,9 +14,12 @@
     margin: 20px;
     font-size: 50px;
     cursor: pointer;
+    align-items:center;
+    justify-content:center;
   }
   
   .footer p {
     color: #000;
+    text-align: center;
   }
   

@@ -13,7 +13,10 @@ const Navbar = () => {
 	return (
 		<div className='navbar'>
 			<div className='left' id={openLinks ? 'open' : 'close'}>
-				<img src={logo} alt='christy logo' />
+				<Link to='/'>
+					<img src={logo} alt='christy logo' />
+				</Link>
+
 				<div className='hiddenLinks'>
 					<Link to='/'>Home</Link>
 					<Link to='/menu'>Menu</Link>

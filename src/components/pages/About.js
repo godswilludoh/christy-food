@@ -11,7 +11,9 @@ const About = () => {
 			></div>
 			<div className='about-bottom'>
 				<h1>About Us</h1>
-				<p>Welcome to Christy's corner - order luxury food with just a click</p>
+				<p>
+					Welcome to Christy's corner - order luxury food with just a click...
+				</p>
 				<p>
 					The <strong>Christy's corner</strong> story began in 2019 when the
 					very need of a mobile restaurant was paramount in Nigeria, but the
