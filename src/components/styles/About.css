@@ -11,7 +11,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS", sans-serif;
 }
 
 .about-bottom {
@@ -23,7 +23,7 @@
 }
 
 .about-bottom p {
-  width: 1200px;
+  width: 70%;
 }
 
 .about .about-bottom h1 {
@@ -35,3 +35,39 @@
   justify-content: center;
   transform: translateY(-40px);
 }
+
+@media  screen and (max-width: 1025px){
+  .about-bottom p{
+    width: 60%;
+  }
+  
+}
+
+@media  screen and (max-width: 767px){
+  .about-bottom p{
+    width: 60%;
+  }
+
+  .about .about-bottom h1 {
+    font-weight: 400;
+    font-size: 50px;
+  }
+  
+  
+}
+
+@media  screen and (max-width: 425px){
+  .about {
+    height: 100vh;  
+  }
+  .about-bottom p{
+    width: 60%;
+  }
+
+  .about .about-bottom h1 {
+    font-weight: 400;
+    font-size: 40px;
+  }
+  
+}
+
